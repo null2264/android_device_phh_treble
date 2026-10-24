@@ -9,6 +9,3 @@ TARGET_BOOT_ANIMATION_RES := 1080
 
 # APN
 PRODUCT_PACKAGES += apns-conf.xml
-
-#Oplus fingerprint
-$(call soong_config_set,surfaceflinger,udfps_lib,//hardware/oplus:libudfps_extension.oplus)
