@@ -9,3 +9,5 @@ TARGET_BOOT_ANIMATION_RES := 1080
 
 # APN
 PRODUCT_PACKAGES += apns-conf.xml
+
+TARGET_SYSTEM_PROP += device/phh/treble/system.prop
