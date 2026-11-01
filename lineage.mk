@@ -1,3 +1,4 @@
+$(call inherit-product, vendor/lineage/config/common.mk)
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 $(call inherit-product, vendor/lineage/config/BoardConfigSoong.mk)
 $(call inherit-product, vendor/lineage/config/BoardConfigLineage.mk)
