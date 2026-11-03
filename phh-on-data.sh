@@ -1,5 +1,7 @@
 #!/system/bin/sh
 
+[ -z "$(getprop ril.official_cscver)" ] && [ "$(getprop ro.product.vendor.device)" = "a05s" ] && setprop ril.official_cscver "A057FOJMFDZH2"
+
 vndk="$(getprop persist.sys.vndk)"
 [ -z "$vndk" ] && vndk="$(getprop ro.vndk.version |grep -oE '^[0-9]+')"
 
